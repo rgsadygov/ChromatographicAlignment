@@ -9,7 +9,9 @@ Here we show that RT alignment followed by feature matching and peptide identifi
 
 ## II. Usage
 To run the application, first, prepare a text file, [files.txt](https://github.com/rgsadygov/ChromatographicAlignment/blob/main/files.txt), that contains the list of mzML files in chronological order. Then use the following command 
+
     ```
     ChromatographicAlignment.exe files.txt
     ```
+
 The Chromatographic Alignment application will generate .csv files that contain retention time pair-wise information between two successive experiments.
